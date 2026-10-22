@@ -39,7 +39,8 @@ package net {
         private var _saveSlot:int               = 0;
 
         private static function isSecureHost(host:String):Boolean {
-            return host.toLowerCase() == "archipelago.gg";
+            return true;
+            //return host.toLowerCase() == "archipelago.gg";
         }
 
         /**
